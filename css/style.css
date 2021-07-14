@@ -1,0 +1,77 @@
+.logo
+{
+    display: block;
+    margin: auto;
+    height: 70px;
+    width: 70px;
+}
+
+body{
+    height: 100vh;
+    background: url("https://res.cloudinary.com/finnhvman/image/upload/v1541930411/pattern.png");
+}
+.container{
+    background-image: url("chatbg2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* filter: blur(0.5px); */
+    background-position: center;
+    border: 2px ridge moccasin;
+    /* box-shadow: 5px 10px moccasin; */
+    max-width:955px;
+    margin:auto;
+    height: 70vh;  
+    padding: 33px;
+    margin-bottom: 23px;
+    overflow-y: auto;
+    border-radius: 13px;
+    box-sizing: border-box;
+}
+
+.message{
+    background-color: antiquewhite;
+    width: 24%;
+    padding:05px;
+    margin:17px 12px;
+    border:2px solid chocolate;
+    border-radius: 9px;
+}
+.left{
+    float:left;
+    clear: both;
+}
+.right{
+    float:right;
+    clear: both;
+}
+#send-container
+{
+    /* border: 2px solid red;  */
+    max-width: 950px;
+    display: block;
+    margin: auto;
+    text-align: center;
+    /* width: 100%; */
+  
+}
+#messageinput{
+    border: 2px solid black;
+    border-radius: 5px;
+    width:92%;
+    height: 34px;
+    font-size:22px;
+}
+.btn{
+    cursor: pointer;
+    margin-top: 5px;
+    height: 34px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+h1{
+    margin-top: 12px;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
